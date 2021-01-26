@@ -8,3 +8,5 @@ Lcd_HandleTypeDef lcd;
 
 
 /* USER CODE END PV */
+
+lcd = Lcd_create(ports, pins, RS_GPIO_Port, RS_Pin, EN_GPIO_Port, EN_Pin, LCD_4_BIT_MODE);
